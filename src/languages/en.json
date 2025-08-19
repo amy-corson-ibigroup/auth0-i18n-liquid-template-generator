@@ -1,8 +1,17 @@
 {
-    "welcome": "Hello {{application.user}} Welcome to the site",
-    "thankYou": "Thank you for signing up. Please verify your email address by clicking the following link:",
-    "confirm": "Confirm my account",
-    "needHelp": "If you are having any issues with your account, please don’t hesitate to contact us by replying to this mail.",
-    "regards": "Regards",
-    "footer": "If you did not make this request, please contact us by replying to this mail."
+    "verifyYourAccount": "Verify your account",
+    "yourAccountInformation": "Your account information",
+    "account": "Account",
+    "verifyLink": "Verify link",
+    "needHelp": "If you are having any issues with your account, please don't hesitate to contact us by replying to this mail.",
+    "footer": "You're receiving this email because you have an account in {{ friendly_name | escape }}. If you are not sure why you're receiving this, please contact us",
+    "poweredBy": "Powered by",
+    "auth0Logo": "Auth0 Logo",
+    "passwordChangeRequest": "You have submitted a password change request!",
+    "confirmPasswordChange": "If it was you, confirm the password change",
+    "url": "URL",
+    "confirm": "Confirm",
+    "suspiciousActivity": "We detected suspicious activity in your {{ friendly_name | escape }} account.",
+    "ipAddress": "If this is your IP address follow the <strong>Unblock link</strong>. Otherwise disregard this email.",
+    "unblock": "Unblock"
 }

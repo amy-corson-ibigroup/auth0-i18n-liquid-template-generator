@@ -2,7 +2,7 @@ import { localizeMessage } from "../scripts";
 
 const html = `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="{{user.user_metadata.lang | en }}">
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <meta name="x-apple-disable-message-reformatting" />
@@ -23,7 +23,7 @@ const html = `
     </style>
   </head>
   <div style="display:none;overflow:hidden;line-height:1px;opacity:0;max-height:0;max-width:0">
-    ${localizeMessage("verifyYourAccount")}
+    ${localizeMessage("suspiciousActivity")}
   </div>
 
   <body
@@ -99,7 +99,7 @@ const html = `
                             <img
                               alt="Icon"
                               height="24"
-                              src="https://cdn.auth0.com/website/emails/product/icon-mail.png"
+                              src="https://cdn.auth0.com/website/emails/product/icon-security.png"
                               style="margin-left:auto;margin-right:auto;display:block;outline:none;border:none;text-decoration:none"
                               width="24"
                             />
@@ -110,10 +110,10 @@ const html = `
                     <h1
                       style="padding:0px;text-align:center;font-size:1.5rem;line-height:2rem;font-weight:600;color:rgb(23,23,23)"
                     >
-                      ${localizeMessage("verifyYourAccount")}
+                      ${localizeMessage("suspiciousActivity")}
                     </h1>
                     <hr
-                      style="margin-top:0.75rem;margin-bottom:1.5rem;border-width:1px;border-color:rgb(212,212,212);width:100%;border:none;border-top:1px solid #eaeaea"
+                      style="margin-top:1.25rem;margin-bottom:1.25rem;border-width:1px;border-color:rgb(212,212,212);width:100%;border:none;border-top:1px solid #eaeaea"
                     />
                   </td>
                 </tr>
@@ -134,7 +134,7 @@ const html = `
                     <p
                       style="margin-top:1.5rem;margin-bottom:1.5rem;text-align:center;font-size:1rem;line-height:1.5rem;color:rgb(23,23,23);margin:16px 0"
                     >
-                      ${localizeMessage("yourAccountInformation")}
+                      ${localizeMessage("ipAddress")}
                     </p>
                     <table
                       align="center"
@@ -163,7 +163,7 @@ const html = `
                                     <table
                                       align="center"
                                       width="100%"
-                                      id="Account:"
+                                      id="IP"
                                       border="0"
                                       cellpadding="0"
                                       cellspacing="0"
@@ -178,7 +178,7 @@ const html = `
                                             style="display:block;width:100%;text-align:left"
                                           >
                                             <p style="margin:0px;font-weight:600;font-size:14px;line-height:24px">
-                                              ${localizeMessage("account")}:
+                                              IP
                                             </p>
                                           </td>
                                           <td
@@ -189,7 +189,7 @@ const html = `
                                             <p
                                               style="margin:0px;word-break:break-all;font-size:14px;line-height:24px"
                                             >
-                                              {{ user.email | escape }}
+                                              {{ user.source_ip | escape }}
                                             </p>
                                           </td>
                                         </tr>
@@ -214,10 +214,11 @@ const html = `
                               <tbody>
                                 <tr style="width:100%">
                                   <td>
+                                    {% if user.city or user.country %}
                                     <table
                                       align="center"
                                       width="100%"
-                                      id="Verify Link:"
+                                      id="Location"
                                       border="0"
                                       cellpadding="0"
                                       cellspacing="0"
@@ -232,7 +233,7 @@ const html = `
                                             style="display:block;width:100%;text-align:left"
                                           >
                                             <p style="margin:0px;font-weight:600;font-size:14px;line-height:24px">
-                                              ${localizeMessage("verifyLink")}:
+                                              Location
                                             </p>
                                           </td>
                                           <td
@@ -240,16 +241,16 @@ const html = `
                                             data-id="__react-email-column"
                                             style="display:block;width:100%;text-align:left"
                                           >
-                                            <a
-                                              href="{{ url | escape }}"
-                                              style="margin:0px;word-break:break-all;color:rgb(0,0,0);text-underline-offset:4px;text-decoration:underline"
-                                              target="_blank"
-                                              >{{ url | escape }}</a
+                                            <p
+                                              style="margin:0px;word-break:break-all;font-size:14px;line-height:24px"
                                             >
+                                              {{ user.city | escape }}, {{ user.country | escape }}
+                                            </p>
                                           </td>
                                         </tr>
                                       </tbody>
                                     </table>
+                                    {% endif %}
                                   </td>
                                 </tr>
                               </tbody>
@@ -265,7 +266,7 @@ const html = `
                       cellpadding="0"
                       cellspacing="0"
                       role="presentation"
-                      style="width:100%;text-align:center;max-width:37.5em"
+                      style="margin-top:2rem;width:100%;text-align:center;max-width:37.5em"
                     >
                       <tbody>
                         <tr style="width:100%">
@@ -280,51 +281,13 @@ const html = `
                                 [endif]--></span
                               ><span
                                 style="max-width:100%;display:inline-block;line-height:120%;mso-padding-alt:0px;mso-text-raise:6px"
-                                >${localizeMessage("verifyYourAccount")}</span
+                                >U${localizeMessage("unblock")}</span
                               ><span
                                 ><!--[if mso
                                   ]><i style="mso-font-width:300%" hidden>&#8202;&#8202;&#8203;</i><!
                                 [endif]--></span
                               ></a
                             >
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <table
-              align="center"
-              width="100%"
-              id="issue-note"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              style="text-align:center;margin-top:1.5rem"
-            >
-              <tbody>
-                <tr>
-                  <td>
-                    <table
-                      align="center"
-                      width="100%"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      style="width:100%;text-align:center;max-width:37.5em"
-                    >
-                      <tbody>
-                        <tr style="width:100%">
-                          <td>
-                            <p
-                              style="margin:0px;margin-left:2rem;margin-right:2rem;font-size:0.875rem;line-height:1.25rem;color:rgb(163,163,163)"
-                            >
-                              ${localizeMessage("needHelp")}:
-                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -389,7 +352,7 @@ const html = `
                     <p
                       style="margin-top:-0.5rem;font-size:0.75rem;line-height:1rem;color:rgb(23,23,23);margin:16px 0"
                     >
-                      ${localizeMessage("poweredBy")}:
+                      Powered by
                     </p>
                   </td>
                   <td align="left" data-id="__react-email-column" style="height:40px;width:fit-content">
@@ -398,7 +361,7 @@ const html = `
                       style="display:block;color:#067df7;text-decoration:none"
                       target="_blank"
                       ><img
-                        alt=${localizeMessage("auth0Logo")}:
+                        alt="Auth0 Logo"
                         height="24"
                         src="https://cdn.auth0.com/website/email/auth0-lockup-en-onlight.png"
                         style="margin-left:0.5rem;margin-top:2px;display:inline-block;width:auto;outline:none;border:none;text-decoration:none"
@@ -414,6 +377,6 @@ const html = `
     </table>
   </body>
 </html>
-`;
+`
 
 export default html;

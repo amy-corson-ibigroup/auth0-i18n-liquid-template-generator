@@ -1,8 +1,17 @@
 {
-    "welcome": "Bonjour {{application.user}} Bienvenue sur le site",
-    "thankYou": "Merci de vous être inscrit. Veuillez vérifier votre adresse e-mail en cliquant sur le lien suivant:",
-    "confirm": "Confirmer mon compte",
-    "needHelp": "Si vous rencontrez des problèmes avec votre compte, n'hésitez pas à nous contacter en répondant à ce mail.",
-    "regards": "Cordialement",
-    "footer": "Si vous n'avez pas fait cette demande, veuillez nous contacter en répondant à ce mail."
+    "verifyYourAccount": "Verify your account in french",
+    "yourAccountInformation": "Your account information in french",
+    "account": "Account in french",
+    "verifyLink": "Verify link in french",
+    "needHelp": "If you are having any issues with your account, please don't hesitate to contact us by replying to this mail  in french",
+    "footer": "You're receiving this email because you have an account in {{ friendly_name | escape }}. If you are not sure why you're receiving this, please contact us  in french",
+    "poweredBy": "Powered by in french",
+    "auth0Logo": "Auth0 Logo in french",
+    "passwordChangeRequest": "You have submitted a password change request!",
+    "confirmPasswordChange": "If it was you, confirm the password change",
+    "url": "URL",
+    "confirm": "Confirm",
+    "suspiciousActivity": "We detected suspicious activity in your {{ friendly_name | escape }} account.",
+    "ipAddress": "If this is your IP address follow the <strong>Unblock link</strong>. Otherwise disregard this email.",
+    "unblock": "Unblock in grensdf"
 }
