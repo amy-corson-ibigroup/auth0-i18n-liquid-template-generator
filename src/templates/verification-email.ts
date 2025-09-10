@@ -134,6 +134,7 @@ const html = `
                     <p
                       style="margin-top:1.5rem;margin-bottom:1.5rem;text-align:center;font-size:1rem;line-height:1.5rem;color:rgb(23,23,23);margin:16px 0"
                     >
+                      Your language is set to: {{ user.user_metadata.lang | escape }}.<br />
                       ${localizeMessage("yourAccountInformation")}
                     </p>
                     <table
@@ -398,7 +399,7 @@ const html = `
                       style="display:block;color:#067df7;text-decoration:none"
                       target="_blank"
                       ><img
-                        alt=${localizeMessage("auth0Logo")}:
+                        alt=""auth0 Logo":
                         height="24"
                         src="https://cdn.auth0.com/website/email/auth0-lockup-en-onlight.png"
                         style="margin-left:0.5rem;margin-top:2px;display:inline-block;width:auto;outline:none;border:none;text-decoration:none"

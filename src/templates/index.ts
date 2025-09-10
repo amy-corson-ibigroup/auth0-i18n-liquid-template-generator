@@ -1,1 +1,1 @@
-export const templates = ["verification-email", "change-password-link", "blocked-account-email"];
+export const templates = ["verification-email", "change-password-link", "blocked-account-email", "password-breach-alert"];
