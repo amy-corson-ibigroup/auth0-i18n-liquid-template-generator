@@ -1,0 +1,22 @@
+{
+    "verifyYourAccount": "验证您的账户",
+    "yourAccountInformation": "您的账户信息",
+    "account": "账户",
+    "verifyLink": "验证链接",
+    "needHelp": "如遇到任何账户问题，请直接回复本邮件联系我们。",
+    "footer": "您收到此邮件是因为在 {{ friendly_name | escape }} 拥有账户。若不清楚收件原因，请联系我们",
+    "poweredBy": "技术支持提供方：",
+    "auth0Logo": "Auth0 标识",
+    "passwordChangeRequest": "您已提交密码修改申请！",
+    "confirmPasswordChange": "如是本人操作，请确认修改密码",
+    "url": "URL",
+    "confirm": "确认",
+    "suspiciousActivity": "检测到您的 {{ friendly_name | escape }} 账户存在可疑活动。",
+    "ipAddress": "若此为您的 IP 地址，请点击<strong>解除屏蔽链接</strong>，否则请忽略本邮件。",
+    "unblock": "解除屏蔽",
+    "accountHacked": "您的账户可能已被入侵、盗用或窃取。",
+    "securityBreach": "因您在其他无关网站使用与 {{ friendly_name | escape }} 相同的密码，且该网站发生安全事件，您的账户正面临风险。",
+    "securityBreach2": "请立即修改密码，在完成修改前所有登录请求将被拒绝。",
+    "changePassword": "修改密码",
+    "thanks": "感谢"
+}

@@ -1,0 +1,22 @@
+{
+    "verifyYourAccount": "Beripikahin ang iyong account",
+    "yourAccountInformation": "Impormasyon ng account mo",
+    "account": "Account",
+    "verifyLink": "Beripikahin ang link",
+    "needHelp": "Kung nagkakaroon ka ng anumang mga isyu sa account mo, huwag mag-atubiling makipag-ugnayan sa amin sa pamamagitan ng pagsagot sa mail na ito.",
+    "footer": "Natanggap mo ang email na ito dahil mayroon kang account sa {{ friendly_name | escape }}. Kung hindi ka sigurado kung bakit mo ito natatanggap, makipag-ugnayan sa amin",
+    "poweredBy": "Pinatatakbo ng",
+    "auth0Logo": "Auth0 Logo",
+    "passwordChangeRequest": "Magsumite ka ng kahilingan sa pagpapalit ng password!",
+    "confirmPasswordChange": "Kung ikaw ito, kumpirmahin ang pagbabago ng password",
+    "url": "URL",
+    "confirm": "Kumpirmahin",
+    "suspiciousActivity": "Nakita namin ang kahina-hinalang aktibidad sa iyong {{ friendly_name | escape }} account.",
+    "ipAddress": "Kung IP address mo ito, sundan ang <strong>Unblock link</strong>. Kung hindi, huwag pansinin ang email na ito.",
+    "unblock": "I-unblock",
+    "accountHacked": "Maaaring na-hack, nakompromiso, o ninakaw ang account mo.",
+    "securityBreach": "Nagkaroon ng insidente sa seguridad sa isa pang website na walang kaugnayan sa {{ friendly_name | escape }}. Nanganganib ang account mo dahil pareho ang password mo rito.",
+    "securityBreach2": "Baguhin kaagad ang password mo, ang lahat ng mga pagtatangka sa pag-login ay maba-block hanggang sa magawa mo ito.",
+    "changePassword": "Baguhin ang Password",
+    "thanks": "Salamat"
+}

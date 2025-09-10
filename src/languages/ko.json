@@ -1,0 +1,22 @@
+{
+    "verifyYourAccount": "계정을 인증해 주세요",
+    "yourAccountInformation": "귀하의 계정 정보",
+    "account": "계정",
+    "verifyLink": "인증 링크",
+    "needHelp": "계정 이용에 문제가 있으실 경우, 본 메일에 회신해 주시면 언제든 도움을 드리겠습니다.",
+    "footer": "이 메일은 {{ friendly_name | escape }} 계정을 보유하고 계시기 때문에 발송되었습니다. 수신 사유를 알 수 없는 경우, 고객센터로 문의해 주시기 바랍니다.",
+    "poweredBy": "제공처",
+    "auth0Logo": "Auth0 로고",
+    "passwordChangeRequest": "비밀번호 변경 요청이 접수되었습니다!",
+    "confirmPasswordChange": "본인이 요청하신 경우, 비밀번호 변경을 확인해 주세요",
+    "url": "URL",
+    "confirm": "확인",
+    "suspiciousActivity": "{{ friendly_name | escape }} 계정에서 의심스러운 활동이 감지되었습니다.",
+    "ipAddress": "본인의 IP 주소가 맞다면 <strong>차단 해제 링크</strong>를 클릭해 주세요. 그렇지 않다면, 본 메일은 무시하셔도 됩니다.",
+    "unblock": "차단 해제",
+    "accountHacked": "귀하의 계정이 해킹 또는 탈취, 무단 사용되었을 가능성이 있습니다.",
+    "securityBreach": "{{ friendly_name | escape }}와 관계없는 다른 웹사이트에서 보안 사고가 발생했으며, 동일한 비밀번호를 사용하셨기 때문에 계정이 위험에 노출되었습니다.",
+    "securityBreach2": "즉시 비밀번호를 변경해 주시기 바랍니다. 비밀번호 변경 완료 전까지는 모든 로그인 시도가 차단됩니다.",
+    "changePassword": "비밀번호 변경하기",
+    "thanks": "감사합니다"
+}

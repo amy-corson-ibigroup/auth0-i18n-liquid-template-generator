@@ -13,5 +13,10 @@
     "confirm": "Confirm",
     "suspiciousActivity": "We detected suspicious activity in your {{ friendly_name | escape }} account.",
     "ipAddress": "If this is your IP address follow the <strong>Unblock link</strong>. Otherwise disregard this email.",
-    "unblock": "Unblock"
+    "unblock": "Unblock",
+    "accountHacked": "Your account could have been hacked, compromised or stolen.",
+    "securityBreach": "There was a security incident on another website unrelated to {{ friendly_name | escape }} Your account is at risk because you were using the same password in both places.",
+    "securityBreach2": "Please change your password immediately, all login attempts will be blocked until you finish.",
+    "changePassword": "Change Password",
+    "thanks": "Thanks"
 }

@@ -1,0 +1,22 @@
+{
+    "verifyYourAccount": "Xác minh tài khoản của bạn",
+    "yourAccountInformation": "Thông tin tài khoản của bạn",
+    "account": "Tài khoản",
+    "verifyLink": "Liên kết xác minh",
+    "needHelp": "Nếu bạn gặp bất kỳ vấn đề nào với tài khoản của mình, vui lòng liên hệ với chúng tôi bằng cách trả lời email này.",
+    "footer": "Bạn nhận được email này vì bạn có tài khoản tại {{ friendly_name | escape }}. Nếu bạn không chắc tại sao mình nhận được email này, vui lòng liên hệ với chúng tôi.",
+    "poweredBy": "Được hỗ trợ bởi",
+    "auth0Logo": "Logo Auth0",
+    "passwordChangeRequest": "Bạn đã gửi yêu cầu thay đổi mật khẩu!",
+    "confirmPasswordChange": "Nếu bạn đúng là người gửi, hãy xác nhận việc thay đổi mật khẩu.",
+    "url": "URL",
+    "confirm": "Xác nhận",
+    "suspiciousActivity": "Chúng tôi nhận thấy hoạt động đáng ngờ trong tài khoản {{ friendly_name | escape }} của bạn.",
+    "ipAddress": "Nếu đây là địa chỉ IP của bạn, hãy nhấp vào <strong>Liên kết bỏ chặn</strong>. Nếu không, vui lòng bỏ qua email này.",
+    "unblock": "Bỏ chặn",
+    "accountHacked": "Tài khoản của bạn có thể đã bị xâm nhập, lộ thông tin hoặc bị đánh cắp.",
+    "securityBreach": "Đã xảy ra sự cố bảo mật trên một trang web khác không liên quan đến {{ friendly_name | escape }}. Tài khoản của bạn đang gặp rủi ro vì bạn đã sử dụng cùng một mật khẩu ở cả hai nơi.",
+    "securityBreach2": "Vui lòng thay đổi mật khẩu ngay lập tức, tất cả các lần thử đăng nhập sẽ bị chặn cho đến khi bạn hoàn tất.",
+    "changePassword": "Thay đổi mật khẩu",
+    "thanks": "Cảm ơn"
+}

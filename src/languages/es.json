@@ -1,0 +1,22 @@
+{
+    "verifyYourAccount": "Verifique su cuenta",
+    "yourAccountInformation": "La información de su cuenta",
+    "account": "Cuenta",
+    "verifyLink": "Verificar enlace",
+    "needHelp": "Si tiene algún problema con su cuenta, no dude en contactarnos respondiendo a este correo.",
+    "footer": "Está recibiendo este correo electrónico porque tiene cuenta en {{ friendly_name | escape }}. Si no está seguro de por qué lo recibe, por favor contáctenos",
+    "poweredBy": "Con tecnología de",
+    "auth0Logo": "Logotipo de Auth0",
+    "passwordChangeRequest": "Ha enviado una solicitud de cambio de contraseña!",
+    "confirmPasswordChange": "Si fue usted, confirme el cambio de contraseña",
+    "url": "URL",
+    "confirm": "Confirmar",
+    "suspiciousActivity": "Detectamos actividad sospechosa en su cuenta de {{ friendly_name | escape }}",
+    "ipAddress": "Si esta es su dirección IP siga el <strong>Enlace de desbloqueo</strong>. De lo contrario, ignore este correo electrónico.",
+    "unblock": "Desbloquear",
+    "accountHacked": "Su cuenta podría haber sido hackeada, comprometida o robada.",
+    "securityBreach": "Hubo un incidente de seguridad en otro sitio web no relacionado con {{ friendly_name | escape }}. Su cuenta está en riesgo porque estaba usando la misma contraseña en ambos lugares.",
+    "securityBreach2": "Por favor, cambie su contraseña inmediatamente, todos los intentos de inicio de sesión serán bloqueados hasta que finalice.",
+    "changePassword": "Cambiar contraseña",
+    "thanks": "Gracias"
+}
