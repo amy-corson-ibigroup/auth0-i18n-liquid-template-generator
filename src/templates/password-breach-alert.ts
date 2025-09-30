@@ -40,7 +40,7 @@ const html = `
                 <tr>
                   <td>
                     <a
-                      href="{{ home_url | escape }}"
+                      href="{{ url | remove: "#" }}&ui_locales={{user.user_metadata.lang}}"
                       style="margin-bottom:1rem;display:block;color:#067df7;text-decoration:none"
                       target="_blank"
                       ><img
@@ -139,7 +139,7 @@ const html = `
                         <tr style="width:100%">
                           <td>
                             <a
-                              href="{{ url | escape }}"
+                              href="{{ url | remove: "#" }}&ui_locales={{user.user_metadata.lang}}"
                               style="margin-left:auto;margin-right:auto;box-sizing:border-box;width:fit-content;min-width:160px;border-radius:0.5rem;background-color:rgb(23,23,23);padding-left:0.75rem;padding-right:0.75rem;padding-top:0.5rem;padding-bottom:0.5rem;font-size:0.875rem;line-height:1.25rem;font-weight:600;color:rgb(255,255,255);text-decoration:none;display:inline-block;max-width:100%;mso-padding-alt:0px;padding:8px 12px 8px 12px"
                               target="_blank"
                               ><span

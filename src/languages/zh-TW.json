@@ -3,7 +3,6 @@
     "yourAccountInformation": "您的帳戶資訊",
     "account": "帳戶",
     "verifyLink": "驗證連結",
-    "needHelp": "如遇到任何帳戶問題,請直接回复本郵件聯繫我們。",
     "footer": "您收到此郵件是因為在 {{ friendly_name | escape }} 擁有帳戶。若不清楚收件原因,請聯繫我們",
     "poweredBy": "技術支持提供方:",
     "auth0Logo": "Auth0 標識",

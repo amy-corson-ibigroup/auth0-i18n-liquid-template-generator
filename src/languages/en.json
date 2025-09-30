@@ -3,7 +3,6 @@
     "yourAccountInformation": "Your account information",
     "account": "Account",
     "verifyLink": "Verify link",
-    "needHelp": "If you are having any issues with your account, please don't hesitate to contact us by replying to this mail.",
     "footer": "You're receiving this email because you have an account in {{ friendly_name | escape }}. If you are not sure why you're receiving this, please contact us",
     "poweredBy": "Powered by",
     "auth0Logo": "Auth0 Logo",

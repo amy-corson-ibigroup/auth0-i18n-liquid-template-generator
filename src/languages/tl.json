@@ -3,7 +3,6 @@
     "yourAccountInformation": "Impormasyon ng account mo",
     "account": "Account",
     "verifyLink": "Beripikahin ang link",
-    "needHelp": "Kung nagkakaroon ka ng anumang mga isyu sa account mo, huwag mag-atubiling makipag-ugnayan sa amin sa pamamagitan ng pagsagot sa mail na ito.",
     "footer": "Natanggap mo ang email na ito dahil mayroon kang account sa {{ friendly_name | escape }}. Kung hindi ka sigurado kung bakit mo ito natatanggap, makipag-ugnayan sa amin",
     "poweredBy": "Pinatatakbo ng",
     "auth0Logo": "Auth0 Logo",

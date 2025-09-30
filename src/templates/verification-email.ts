@@ -134,7 +134,6 @@ const html = `
                     <p
                       style="margin-top:1.5rem;margin-bottom:1.5rem;text-align:center;font-size:1rem;line-height:1.5rem;color:rgb(23,23,23);margin:16px 0"
                     >
-                      Your language is set to: {{ user.user_metadata.lang | escape }}.<br />
                       ${localizeMessage("yourAccountInformation")}
                     </p>
                     <table
@@ -242,7 +241,7 @@ const html = `
                                             style="display:block;width:100%;text-align:left"
                                           >
                                             <a
-                                              href="{{ url | escape }}"
+                                              href="{{ url | remove: "#" }}&ui_locales={{user.user_metadata.lang}}"
                                               style="margin:0px;word-break:break-all;color:rgb(0,0,0);text-underline-offset:4px;text-decoration:underline"
                                               target="_blank"
                                               >{{ url | escape }}</a
@@ -272,7 +271,7 @@ const html = `
                         <tr style="width:100%">
                           <td>
                             <a
-                              href="{{ url | escape }}"
+                              href="{{ url | remove: "#" }}&ui_locales={{user.user_metadata.lang}}"
                               style="margin-left:auto;margin-right:auto;box-sizing:border-box;width:fit-content;min-width:160px;border-radius:0.5rem;background-color:rgb(23,23,23);padding-left:0.75rem;padding-right:0.75rem;padding-top:0.5rem;padding-bottom:0.5rem;font-size:0.875rem;line-height:1.25rem;font-weight:600;color:rgb(255,255,255);text-decoration:none;display:inline-block;max-width:100%;mso-padding-alt:0px;padding:8px 12px 8px 12px"
                               target="_blank"
                               ><span
@@ -318,17 +317,6 @@ const html = `
                       role="presentation"
                       style="width:100%;text-align:center;max-width:37.5em"
                     >
-                      <tbody>
-                        <tr style="width:100%">
-                          <td>
-                            <p
-                              style="margin:0px;margin-left:2rem;margin-right:2rem;font-size:0.875rem;line-height:1.25rem;color:rgb(163,163,163)"
-                            >
-                              ${localizeMessage("needHelp")}:
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
                     </table>
                   </td>
                 </tr>

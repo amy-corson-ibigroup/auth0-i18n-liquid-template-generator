@@ -3,7 +3,6 @@
     "yourAccountInformation": "Thông tin tài khoản của bạn",
     "account": "Tài khoản",
     "verifyLink": "Liên kết xác minh",
-    "needHelp": "Nếu bạn gặp bất kỳ vấn đề nào với tài khoản của mình, vui lòng liên hệ với chúng tôi bằng cách trả lời email này.",
     "footer": "Bạn nhận được email này vì bạn có tài khoản tại {{ friendly_name | escape }}. Nếu bạn không chắc tại sao mình nhận được email này, vui lòng liên hệ với chúng tôi.",
     "poweredBy": "Được hỗ trợ bởi",
     "auth0Logo": "Logo Auth0",

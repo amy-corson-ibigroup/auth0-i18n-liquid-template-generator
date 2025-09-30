@@ -1,0 +1,21 @@
+{
+    "verifyYourAccount": "Vérifiez votre compte",
+    "yourAccountInformation": "Vos informations de compte",
+    "account": "Compte",
+    "verifyLink": "Vérifier le lien",
+    "footer": "Vous recevez cet e-mail car vous avez un compte en {{ friendly_name | escape }}. Si vous n'êtes pas sûr de la raison pour laquelle vous recevez ce message, veuillez nous contacter.",
+    "poweredBy": "Propulsé par",
+    "auth0Logo": "Auth0 Logo",
+    "passwordChangeRequest": "Vous avez soumis une demande de changement de mot de passe!",
+    "confirmPasswordChange": "Si c'était vous, confirmez le changement de mot de passe",
+    "url": "URL",
+    "confirm": "Confirmer",
+    "suspiciousActivity": "Nous avons détecté une activité suspecte sur votre compte  {{ friendly_name | escape }}.",
+    "ipAddress": "S'il s'agit de votre adresse IP, suivez le lien débloquer. Sinon, ignorez cet e-mail.",
+    "unblock": "Débloquer",
+    "accountHacked": "Votre compte pourrait avoir été piraté, compromis ou volé.",
+    "securityBreach": "Un incident de sécurité s'est produit sur un autre site Web sans rapport avec {{ friendly_name | escape }} Votre compte est en danger car vous utilisiez le même mot de passe aux deux endroits.",
+    "securityBreach2": "Veuillez changer votre mot de passe immédiatement, toutes les tentatives de connexion seront bloquées jusqu'à ce que vous ayez terminé.",
+    "changePassword": "Changer le mot de passe",
+    "thanks": "Merci"
+}

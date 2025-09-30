@@ -3,7 +3,6 @@
     "yourAccountInformation": "您的账户信息",
     "account": "账户",
     "verifyLink": "验证链接",
-    "needHelp": "如遇到任何账户问题，请直接回复本邮件联系我们。",
     "footer": "您收到此邮件是因为在 {{ friendly_name | escape }} 拥有账户。若不清楚收件原因，请联系我们",
     "poweredBy": "技术支持提供方：",
     "auth0Logo": "Auth0 标识",

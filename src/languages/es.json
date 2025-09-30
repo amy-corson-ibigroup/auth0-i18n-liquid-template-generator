@@ -3,7 +3,6 @@
     "yourAccountInformation": "La información de su cuenta",
     "account": "Cuenta",
     "verifyLink": "Verificar enlace",
-    "needHelp": "Si tiene algún problema con su cuenta, no dude en contactarnos respondiendo a este correo.",
     "footer": "Está recibiendo este correo electrónico porque tiene cuenta en {{ friendly_name | escape }}. Si no está seguro de por qué lo recibe, por favor contáctenos",
     "poweredBy": "Con tecnología de",
     "auth0Logo": "Logotipo de Auth0",
