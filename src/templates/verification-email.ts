@@ -2,7 +2,7 @@ import { localizeMessage } from "../scripts";
 
 const html = `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html dir="ltr" lang="en">
+<html dir="ltr" lang={{user.user_metadata.lang | en }}>
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <meta name="x-apple-disable-message-reformatting" />
@@ -387,7 +387,7 @@ const html = `
                       style="display:block;color:#067df7;text-decoration:none"
                       target="_blank"
                       ><img
-                        alt=""auth0 Logo":
+                        alt="auth0 Logo":
                         height="24"
                         src="https://cdn.auth0.com/website/email/auth0-lockup-en-onlight.png"
                         style="margin-left:0.5rem;margin-top:2px;display:inline-block;width:auto;outline:none;border:none;text-decoration:none"
